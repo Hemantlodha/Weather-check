@@ -1,5 +1,5 @@
-# Alexa Skills Kit SDK Sample - Hello World
-A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to write a Hello World skill for the Amazon Echo using the Alexa SDK.
+# Alexa Skills Kit SDK Sample using JAVA - Weather check
+A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to use weather check skill in java which basically needs an autorization of the user name and the passkey for the Amazon Echo using the Alexa SDK. It basically provides you the info of the weather on the basis of the features you asking for or full details of city weather
 
 ## Concepts
 This simple sample has no external dependencies or session management, and shows the most basic example of how to create a Lambda function for handling Alexa Skill requests.
