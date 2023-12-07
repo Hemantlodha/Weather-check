@@ -11,7 +11,7 @@ This simple sample has no external dependencies or session management, and shows
 
 ## Usage
 1. Invocation:
-   *say Alexa,open weather check
+   * say Alexa,open weather check
 2. Login(Authentication):
 3. 
 ## Setup
