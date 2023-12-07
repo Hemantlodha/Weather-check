@@ -34,7 +34,6 @@ This simple sample has no external dependencies or session management, and shows
 * how it today feels like in {city}.<br/>
   and many more...
 
-<br/>
 .
 ## That's all in this alexa skill but if you want to setup your own weather skills than you can follow the below procedure
 
