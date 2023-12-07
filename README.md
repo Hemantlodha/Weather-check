@@ -11,9 +11,20 @@ This simple sample has no external dependencies or session management, and shows
 
 ## Usage
 1. Invocation:
-   * say Alexa,open weather check
+  * Say Alexa,open weather check
 2. Login(Authentication):
-3. 
+  * You need to tell skill your first name ("Hemant").
+  * Then, you need to provide the passkey("1234").
+  * The credentials provide in bracket can be used publicly.
+3. Logged in:
+  * Once you are verified than you can ask all weather related query about rain, weather condition, particular features or full features of weather.
+4. Additional:
+  * To make it more interactive i have added the basic greets like thank you, welcome.
+5. Session End:
+  * To logged out or to end session you can say bye, cancel, stop.
+
+## Example Queries
+* weather of Delhi
 ## Setup
 To run this example skill you need to do two things. The first is to deploy the example code in lambda, and the second is to configure the Alexa skill to use Lambda. 
 
