@@ -35,6 +35,8 @@ This simple sample has no external dependencies or session management, and shows
   and many more...
 
 
+
+.
 ## That's all in this alexa skill but if you want to setup your own weather skills than you can follow the below procedure
 
 ## Setup
