@@ -1,5 +1,5 @@
 # Alexa Skills Kit SDK Sample using JAVA - Weather check
-A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to use weather check skill in java which basically needs an autorization of the user name and the passkey for the Amazon Echo using the Alexa SDK. It basically provides you the info of the weather on the basis of the features you asking for or full details of city weather with this it also provide you the chances of rain or does there is need to take umbrella with you.
+A simple [AWS Lambda](http://aws.amazon.com/lambda) function that demonstrates how to use weather check skill in java which basically needs an autorization of the user name and the passkey for the Amazon Echo using the Alexa SDK. It basically provides you the info of the weather on the basis of the features you asking for or full details of city weather with this it also provide you the chances of rain or does there is need to take umbrella with you.In some of your queries it will fetch the city from last utterance and provide you weather information accordingly.
 
 ## Concepts
 This simple sample has no external dependencies or session management, and shows the example of how to create a Lambda function for handling Alexa Skill requests in java to featch weather details with autorization.
@@ -11,20 +11,32 @@ This simple sample has no external dependencies or session management, and shows
 
 ## Usage
 1. Invocation:
-  * Say Alexa,open weather check
+   * Say Alexa,open weather check
 2. Login(Authentication):
-  * You need to tell skill your first name ("Hemant").
-  * Then, you need to provide the passkey("1234").
-  * The credentials provide in bracket can be used publicly.
+   * You need to tell skill your first name ("Hemant").
+   * Then, you need to provide the passkey("1234").
+   * The credentials provide in bracket can be used publicly.
 3. Logged in:
-  * Once you are verified than you can ask all weather related query about rain, weather condition, particular features or full features of weather.
+   * Once you are verified than you can ask all weather related query about rain, weather condition, particular features or full features of weather.
 4. Additional:
-  * To make it more interactive i have added the basic greets like thank you, welcome.
+   * To make it more interactive i have added the basic greets like thank you, welcome.
 5. Session End:
-  * To logged out or to end session you can say bye, cancel, stop.
+   * To logged out or to end session you can say bye, cancel, stop.
 
 ## Example Queries
-* weather of Delhi
+* weather of Delhi.
+* Temperature of Delhi.
+* {feature} of {city}.
+* full weather details of {city}.
+* weather condition of {city}.
+* will it rain today?.
+* does i need to take umbrella.
+* how it today feels like in {city}.
+  and many more...
+
+
+## That's all in this alexa skill but if you want to setup your own weather skills than you can follow the below procedure
+
 ## Setup
 To run this example skill you need to do two things. The first is to deploy the example code in lambda, and the second is to configure the Alexa skill to use Lambda. 
 
