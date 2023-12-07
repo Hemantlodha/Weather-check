@@ -1,0 +1,14 @@
+com\amazon\ask\helloworld\handlers\onlyTempIntentHandler.class
+com\amazon\ask\helloworld\handlers\ThankIntentHandler.class
+com\amazon\ask\helloworld\handlers\LaunchRequestHandler.class
+com\amazon\ask\helloworld\handlers\MyExceptionHandler.class
+com\amazon\ask\helloworld\handlers\PersonCheckIntentHandler.class
+com\amazon\ask\helloworld\handlers\PassKeyIntentHandler.class
+com\amazon\ask\helloworld\HelloWorldStreamHandler.class
+com\amazon\ask\helloworld\handlers\RainIntentHandler.class
+com\amazon\ask\helloworld\handlers\weatherIntentHandler.class
+com\amazon\ask\helloworld\handlers\generalQueryIntentHandler.class
+com\amazon\ask\helloworld\handlers\HelpIntentHandler.class
+com\amazon\ask\helloworld\handlers\FallbackIntentHandler.class
+com\amazon\ask\helloworld\handlers\CancelIntentHandler.class
+com\amazon\ask\helloworld\handlers\SessionEndedRequestHandler.class

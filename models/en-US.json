@@ -1,0 +1,213 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "weather check",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can i do",
+                        "unable to understand",
+                        "guide me",
+                        "help please",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "PersonChecker",
+                    "slots": [
+                        {
+                            "name": "Person",
+                            "type": "LIST_OF_PERSON"
+                        }
+                    ],
+                    "samples": [
+                        "{Person}",
+                        " HELLO I AM {Person}",
+                        " I am {Person}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "fallback"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "navigate to home"
+                    ]
+                },
+                {
+                    "name": "weather",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "how's the weather like in {city}",
+                        "full weather details of {city}",
+                        "what is the weather of {city}",
+                        "tell me the weather of {city}"
+                    ]
+                },
+                {
+                    "name": "greeting",
+                    "slots": [],
+                    "samples": [
+                        "thanks",
+                        "Thank You"
+                    ]
+                },
+                {
+                    "name": "onlytemp",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.City"
+                        },
+                        {
+                            "name": "feature",
+                            "type": "LIST_OF_FEATURES"
+                        }
+                    ],
+                    "samples": [
+                        "the {feature} of {city}",
+                        "{feature} of {city}"
+                    ]
+                },
+                {
+                    "name": "general_query",
+                    "slots": [],
+                    "samples": [
+                        "What's the weather condition like today ",
+                        "how was the weather condition",
+                        "Tell me the current weather condition",
+                        "condition of weather "
+                    ]
+                },
+                {
+                    "name": "rainIntent",
+                    "slots": [],
+                    "samples": [
+                        "How's the rainfall looking",
+                        "Give me a rain update",
+                        "What's the rain situation today",
+                        "Tell me if there's any rain today",
+                        "Is it raining right now",
+                        "Will it rain today",
+                        "chances of rain",
+                        "do i need to take umbrella"
+                    ]
+                },
+                {
+                    "name": "passkey",
+                    "slots": [
+                        {
+                            "name": "key",
+                            "type": "LIST_OF_KEYS"
+                        }
+                    ],
+                    "samples": [
+                        "secret is {key}",
+                        "the key is {key}",
+                        "the passkey is {key}",
+                        "{key}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_PERSON",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "green"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Varun"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pawan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Neeraj"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hemant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Priyansh"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_FEATURES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "wind speed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sunset"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sunrise"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "humidity"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "temperature"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_KEYS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "1234"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
